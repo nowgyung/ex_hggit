@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e796583-43b9-4f5d-a7ed-4299d0688a8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/.idea/pycham_work.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../pycham_work/mldl/220724/Ex01.py" afterDir="false" />
+    <list default="true" id="2e796583-43b9-4f5d-a7ed-4299d0688a8d" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.springframework.ide.eclipse.beans.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.springframework.ide.eclipse.beans.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.settings/org.springframework.ide.eclipse.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.settings/org.springframework.ide.eclipse.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/.springBeans" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/.springBeans" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/main/java/com/spring/myapp/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/main/java/com/spring/myapp/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/target/classes/com/spring/myapp/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/target/classes/com/spring/myapp/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/target/classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/target/m2e-wtp/web-resources/META-INF/maven/com.spring/myapp/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/target/m2e-wtp/web-resources/META-INF/maven/com.spring/myapp/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/target/m2e-wtp/web-resources/META-INF/maven/com.spring/myapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/target/m2e-wtp/web-resources/META-INF/maven/com.spring/myapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_work/test_spring/target/test-classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_work/hg_spring/target/test-classes/log4j.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -59,11 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
