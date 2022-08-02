@@ -42,8 +42,55 @@ kn.fit(train_input, train_target)
 score = kn.score(test_input, test_target)
 print("score=",score)
 
+print(kn.predict([[25,150]]))
+
+import matplotlib.pyplot as plt
+
+plt.scatter(train_input[:,0], train_input[:,1])
+plt.scatter(25,150, marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+# plt.show()
+
+distances, indexes = kn.kneighbors([[25,150]])
 
 
+plt.scatter(train_input[:,0], train_input[:,1])
+plt.scatter(25,150, marker='^')
+plt.scatter(train_input[indexes,0], train_input[indexes,1], marker='D')
+plt.xlabel('length')
+plt.ylabel('weight')
+# plt.show()
 
+print(train_target[indexes])
 
+print(distances)
 
+plt.scatter(train_input[:,0], train_input[:,1])
+plt.scatter(25,150, marker='^')
+plt.scatter(train_input[indexes,0], train_input[indexes,1], marker='D')
+plt.xlim((0,1000)) #x축 범위
+plt.xlabel('length')
+plt.ylabel('weight')
+# plt.show()
+
+mean = np.mean(train_input,axis=0)
+std = np.std(train_input,axis=0)
+
+print(mean, std)
+
+train_scaled = (train_input - mean)/std #표준점수 변환중
+
+new = ([25,150]-mean)/std
+plt.scatter(train_scaled[:,0], train_scaled[:,1])
+plt.scatter(new[0],new[1], marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+# plt.show()
+
+kn.fit(train_scaled, train_target)
+test_scaled = (test_input - mean)/std
+score = kn.score(test_scaled,test_target)
+print(score)
+
+print(kn.predict([new]))
