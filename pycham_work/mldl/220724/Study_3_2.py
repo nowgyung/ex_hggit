@@ -55,4 +55,28 @@ plt.scatter(train_input[indexes], train_target[indexes],marker='D')
 plt.scatter(100, 1033, marker='^')
 plt.xlabel('length')
 plt.ylabel('weight')
+# plt.show()
+
+print(np.mean(train_target[indexes]))
+
+print(knr.predict([[100]]))
+
+
+distances, indexes = knr.kneighbors([[100]])
+plt.scatter(train_input, train_target)
+
+plt.scatter(train_input[indexes], train_target[indexes], marker='D')
+
+plt.scatter(100, 1033, marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
 plt.show()
+
+
+
+
+
+
+
+
+
