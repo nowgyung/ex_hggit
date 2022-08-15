@@ -70,7 +70,52 @@ plt.scatter(train_input[indexes], train_target[indexes], marker='D')
 plt.scatter(100, 1033, marker='^')
 plt.xlabel('length')
 plt.ylabel('weight')
-plt.show()
+# plt.show()
+
+from sklearn.linear_model import LinearRegression
+
+lr = LinearRegression()
+lr.fit(train_input, train_target)
+print(lr.predict([[50]]))
+
+print(lr.coef_, lr.intercept_) #lr클래스가 찾은 최적의 모델 파라미터
+
+plt.scatter(train_input, train_target)
+
+plt.plot([15,50],[15*lr.coef_+lr.intercept_, 50*lr.coef_+lr.intercept_]) #선그래프
+
+plt.scatter(50, 1241.8, marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+# plt.show()
+print(lr.score(train_input, train_target))
+print(lr.score(test_input, test_target))
+
+
+train_poly = np.column_stack((train_input**2, train_input))
+test_poly = np.column_stack((test_input**2, test_input))
+
+print(train_poly.shape, test_poly.shape)
+
+lr.fit(train_poly, train_target)
+print(lr.predict([[50**2, 50]]))
+
+print(lr.coef_, lr.intercept_)
+
+point = np.arange(15,50)
+
+plt.scatter(train_input, train_target)
+plt.plot(point, 1.01* point**2 -21.6*point + 116.05)
+
+plt.scatter(50, 1574, marker='^')
+plt.xlabel('length')
+plt.ylabel('weight')
+# plt.show() # 더 나은 그래프
+
+print(lr.score(train_poly, train_target))
+print(lr.score(test_poly, test_target))
+
+
 
 
 
