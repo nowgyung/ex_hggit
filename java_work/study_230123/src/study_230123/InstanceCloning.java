@@ -1,6 +1,6 @@
 package study_230123;
 
-class Point implements Cloneable{
+class Point implements Cloneable{ // clone메소드의 호출 허용
 	private int xPos;
 	private int yPos;
 	
@@ -14,7 +14,7 @@ class Point implements Cloneable{
 		System.out.println();
 	}
 	@Override
-	public Object clone() throws CloneNotSupportedException{
+	public Object clone() throws CloneNotSupportedException{//접근범위 확장
 		return super.clone();
 	}
 }
@@ -34,3 +34,4 @@ public class InstanceCloning {
 		}
 	}
 }
+ 
